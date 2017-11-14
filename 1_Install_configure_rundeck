@@ -1,0 +1,6 @@
+yum install java-1.8.0 
+rpm -Uvh http://repo.rundeck.org/latest.rpm 
+yum install rundeck 
+service rundeckd start
+vi /etc/rundeck/rundeck-config.proprties
+find localhost and change local host and give the public ip
