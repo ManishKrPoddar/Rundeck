@@ -1,0 +1,5 @@
+##Go to rundeck master server
+page .jar file to
+/var/lib/rundeck/libext
+then restart rundeck
+systemctl restart rundeck
